@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: #2D060A;
+    --cor2: #86131D;
+    --cor3: #FCE9EA;
+    --cor4: #222222;
+    --cor5: #333333;
+    --font: 'Comic Neue', cursive;
+}
+
+body {
+    background-color: var(--cor1);
+    font-family: var(--font);
+    color: var(--cor3);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px 20px 60px;
+}
+
+#tittle{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    margin-left: 15px;
+    font-size: 35px;
+}
+
+#img-nav {
+    width: 60px;
+}
+
+nav {
+    font-size: 20px;
+}
+
+main {
+    border-top: 0.1px solid var(--cor3);
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.card {
+    color: var(--cor3);
+    background-color: var(--cor4);
+    text-align: center;
+    border-radius: 10px;
+    width: 240px;
+    height: 290px;
+}
+
+.card-img-top {
+    padding: 3px;
+    border-radius: 10px;
+    width: 210px;
+    height: 210px;
+}
+
+
+
+
+
+
+
