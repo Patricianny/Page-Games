@@ -9,10 +9,12 @@
 
 :root {
     --cor1: #590d13;
-    --cor2: #86131d;
+    --cor2: #20df40;
     --cor3: #FCE9EA;
     --cor4: #222222;
-    --cor5: #333333;
+    --cor5: #df2030;
+    --cor6: #7020df;
+    --cor7: #79ecb3;
     --font: 'Comic Neue', cursive;
 }
 
@@ -23,37 +25,6 @@ body{
     color: var(--cor3);
 }
 
-.card{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    max-width: 100%;
-    padding: 10px;
-    margin: 0px auto;
-    grid-gap: 15px;
-    text-align: center;
-}
-
-.card-img{
-    background-color: var(--cor4);
-    padding: 5px;
-    border-radius: 7px;
-}
-
-.card-body {
-    padding: 5px;
-}
-
-img{
-    max-width: 100%;
-    display: block;
-    border-radius: 5px;
-}
-
-p {
-    font-size: 1.0rem;
-    margin: 3px 0 3px 0;
-}
-
 header{
     
     display: flex;
@@ -62,13 +33,8 @@ header{
     padding: 10px 65px 10px 65px;
 }
 
-#tittle{
-    display: block;
-    align-items: center;
-}
-
 h1{
-    margin-left: -24px;
+    margin-left: -22px;
     font-size: 30px;
 }
 
@@ -82,6 +48,57 @@ nav {
 
 main {
     border-top: 0.4px solid #FFF2E7;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 10px;
+    grid-gap: 15px;
+    text-align: center;
+}
+
+.card-img{
+    background-color: var(--cor4);
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.card-body {
+    padding: 7px 1px 7px 1px;   
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 1.0rem;
+    margin: 5px 0px 5px 0px;
+}
+
+.jogar {
+    color: var(--cor7);
+}
+
+.concluido {
+    color: var(--cor2);
+}
+
+.andamento {
+    color: var(--cor6);
+}
+
+.larquei {
+    color: var(--cor5);
+}
+
+@media (max-width: 1100px) {
+    .card {
+        grid-template-columns: repeat(5, 1fr);
+    }
 }
 
 @media (max-width: 900px) {
