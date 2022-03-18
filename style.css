@@ -33,6 +33,16 @@ header{
     padding: 10px 40px 10px 65px;
 }
 
+#offcanvas {
+    background-color: var(--cor1);
+    color: var(--cor3);
+}
+
+.offcanvas-body {
+    text-indent: 20px;
+    font-size: 1.1rem;
+}
+
 h1{
     margin-left: -22px;
     font-size: 30px;
