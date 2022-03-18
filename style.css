@@ -84,6 +84,21 @@ img{
     border-radius: 5px;
 }
 
+.img-modal {
+    width: 150px;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.modal-body {
+    padding: 10px;
+}
+
+.modal-body > p{
+    text-align: justify;
+    margin: 0px;
+}
+
 p {
     font-size: 1.0rem;
     margin: 5px 0px 5px 0px;
