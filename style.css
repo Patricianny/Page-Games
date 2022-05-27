@@ -144,7 +144,7 @@ p > a {
     color: var(--cor6);
 }
 
-.larquei {
+.larguei {
     color: var(--cor5);
 }
 
@@ -171,7 +171,7 @@ p > a {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 460px) {
     .box {
         grid-template-columns: repeat(2, 1fr);
     }
