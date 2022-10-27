@@ -16,6 +16,7 @@ p, h1, h3, a{
     --cor5: #df2030;
     --cor6: #7020df;
     --cor7: #79ecb3;
+    --cor8: #ff0015;
     --font: 'Comic Neue', cursive;
 }
 
@@ -142,6 +143,10 @@ p > a {
 
 .andamento {
     color: var(--cor6);
+}
+
+.pausado {
+    color: var(--cor8);
 }
 
 .larguei {
